@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Acerca de
+permalink: /acerca/
 ---
 
-Some information about you!
+- 👋 Hola, soy @TogekissTube
+- 👀 Me encanta el desarrollo de sistemas y jugar!
+- 🌱 Estoy aprendiendo C++ y ASM
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+También subo gameplays a youtube y raps. pronuncio mal la R y se me da bien liarla :)
 
-### Contact me
 
-[email@domain.com](mailto:email@domain.com)
