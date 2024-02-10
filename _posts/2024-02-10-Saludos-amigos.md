@@ -20,6 +20,9 @@ Esta parte no aparece en la web solo cuando pinchamos!
 ## Esto es un Subtítulo
 ### Esto es un Subsubtítulo!!!
 
+
+<img src="{{ site.baseurl }}/images/oso.jpg" style="width: 200px;"/>
+
 Y este es el final 😄
 
 bb!
