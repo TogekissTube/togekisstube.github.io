@@ -20,6 +20,6 @@ Esta parte no aparece en la web solo cuando pinchamos!
 ## Esto es un Subtítulo
 ### Esto es un Subsubtítulo!!!
 
-Y este es el final :smirk:
+Y este es el final 😄
 
 bb!
