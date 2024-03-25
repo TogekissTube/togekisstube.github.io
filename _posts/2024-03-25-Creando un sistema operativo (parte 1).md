@@ -25,7 +25,7 @@ cd src
 
 
 Antes de programar, instalemos las dependencias
-
+```
 Ubuntu/Debian:
 
 sudo apt install build-essential nasm qemu-system-i386
@@ -42,9 +42,9 @@ sudo pacman -S gcc binutils nasm qemu
 Bueno vamos a empezar a programar, el primer archivo es un boot.asm, y no, no es un bootloader.
 
 Es un archivo de inicio para cargar el kernel, (que programaremos en C), y posiblemente, sea el archivo mas importante del OS:
-
+```
 Codigo: 
-
+```
 bits 32
 section .text
 
@@ -64,14 +64,14 @@ start:
     cli
     call main
     hlt
-
+```
 
 Puedes usar cualquier IDE como Visual Studio code o Nano (no es un IDE pero sirve)
 
 Ahora, vamos a crear el archivo de kernel (se llama kernel.c)
 
 Codigo:
-
+```
 /* kernel.c */
 
 /* Definición de la función principal del kernel */
@@ -93,12 +93,12 @@ void main() {
         video_memory[i*2+1] = color;
     }
 }
-
+```
 
 Ahora el penultimo archivo, el que sirve para crear el ELF del kernel, el linker.ld:
 
 Codigo:
-
+```
 ENTRY(_start)
 
 SECTIONS {
@@ -125,6 +125,7 @@ SECTIONS {
         *(.eh_frame)
     }
 }
+```
 
 
 Ahora salgamos del directorio src.
@@ -134,7 +135,7 @@ cd ..
 Ahora para compilar el OS tenemos que usar un archivo propio llamado build.sh:
 
 Codigo:
-
+```
 cd src
 nasm -f elf32 boot.asm -o boot.o
 gcc -m32 -c kernel.c -o kernel.o
@@ -145,7 +146,7 @@ Ahora pon estos comandos:
 
 chmod +x build.sh
 ./build.sh
-
+```
 Y terminamos y si todo salio bien, saldra esto
 
 <img src="{{ site.baseurl }}/images/parte1.png" style="width: 400px;"/>
