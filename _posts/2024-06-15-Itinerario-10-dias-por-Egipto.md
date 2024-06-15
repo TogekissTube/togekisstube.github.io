@@ -17,15 +17,17 @@ Puedes alquilar coche o usar Uber.
 
 RUTA POR EGIPTO EN 10 DIAS CON TODO INCLUIDO:
 
-Día 1: Llegada a El Cairo:
+### Día 1: Llegada a El Cairo:
 
 Nuestra ruta empieza en El Cairo (Egipto), Recomendamos que te alojes en el Downtown, Estaras cerca de muchos sition turisticos como el Museo Egipcio.
 
 Aunque si quieres puedes alojarte en Guiza y tener mas cerca las piramides, Aunque hagas lo que hagas, Lo pasaras bien.
 
+Alojate 3 noches en el Cairo.
+
 Nosotros recomendamos pasar este dia para descansar, Aunque puedes explorar un poco las calles.
 
-Dia 2: Piramides de Guiza.
+### Dia 2: Piramides de Guiza.
 
 Este segundo dia lo dedicamos a las Piramides de Guiza.
 
@@ -35,5 +37,13 @@ Bueno volviendo a las piramides yo recomiendo que empiezes por la gran esfinge. 
 Piramide de Kefren mas arriba, ¡Quedarás encantado con la Esfinge! (Aunque mida 20 metros y sea mas grande que tu pero bueno).
 
 <img src="{{ site.baseurl }}/images/Egipto2.jpg" style="width: 400px;"/>
+
+Despues explora el templo dedicado al faraon Kefren que se construyo en el año 2500 a.C.
+
+Ahora camina hacia las piramides, pero no USES los camellos, estan muy explotados y puedes ir en coche o andando perfectamente.
+
+Rodea las piramides, Explora las de Kefren, Miccerino y la de la Reina, Haste un selfie y come en 9 Pyramids Lounge y mira el atardecer.
+
+
 
 Adios!!!!
